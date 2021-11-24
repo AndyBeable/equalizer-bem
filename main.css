@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+:root {
+    --blue: #66E2DC;
+    --orange: #FA7453;
+    --yellow: #FFB964;
+    --white: #FCFAF9;
+    --dark-blue: #191826
+}
+
+body {
+    padding: 2rem
+}
+
+header {
+    background-image: url("./assets/bg-main-mobile.png");
+    background-size: cover;
+}
+.header__logo {
+    margin-bottom: 3rem;
+}
+.header__copy {
+    width: 75%;
+    margin-bottom: 2rem;
+}
+
+.header__copy h1 {
+    margin-bottom: 2rem;
+}
