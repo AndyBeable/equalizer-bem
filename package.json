@@ -1,0 +1,13 @@
+{
+  "name": "equalizer",
+  "version": "1.0.0",
+  "description": "equalizer-bem",
+  "main": "index.js",
+  "repository": "https://github.com/AndyBeable/equalizer-bem.git",
+  "author": "Andy Beable",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "sass": "^1.43.4"
+  }
+}
