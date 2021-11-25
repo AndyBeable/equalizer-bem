@@ -27,10 +27,21 @@ header {
     margin-bottom: 3rem;
 }
 .header__copy {
-    width: 75%;
+    width: 95%;
     margin-bottom: 2rem;
+    letter-spacing: 1.5px;
 }
 
 .header__copy h1 {
     margin-bottom: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main__image img {
+  width: 200px;
 }
