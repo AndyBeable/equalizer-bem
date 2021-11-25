@@ -20,6 +20,7 @@ header {
     background-size: cover;
     margin: 2.5rem 2.5rem 10rem 2.5rem;
 }
+
 .header__logo {
     margin-bottom: 3rem;
 }
@@ -83,9 +84,26 @@ header {
 
 .main__pricing--cost {
     font-size: 5rem;
-    font-weight: 700;
+
 }
 .main__pricing--month {
     font-size: 1.5rem;
-    font-size: 1.5rem;
+}
+
+.btn {
+    border: none;
+    border-radius: 10px;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.apple {
+    color: var(--white);
+    background-color: #000;
+    margin-bottom: 1rem;
 }
