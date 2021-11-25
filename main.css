@@ -15,13 +15,10 @@ body {
     --dark-blue: #191826
 }
 
-body {
-    padding: 2rem
-}
-
 header {
     background-image: url("./assets/bg-main-mobile.png");
     background-size: cover;
+    margin: 2.5rem 2.5rem 10rem 2.5rem;
 }
 .header__logo {
     margin-bottom: 3rem;
@@ -29,19 +26,29 @@ header {
 .header__copy {
     width: 95%;
     margin-bottom: 2rem;
-    letter-spacing: 1.5px;
+    line-height: 2rem;
 }
 
 .header__copy h1 {
+    font-size: 40px;
+    line-height: 48px;
     margin-bottom: 2rem;
 }
 
-main {
+.main__container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--dark-blue);
+    border-radius: 5px;
+    position: relative;
+    height: 40rem;
 }
 .main__image img {
-  width: 200px;
+    position: absolute;
+    max-width: 250px;
+    left: 50%;
+    top: 10rem;
+    transform: translate(-50%, -50%)
 }
