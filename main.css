@@ -44,7 +44,7 @@ header {
     background-color: var(--dark-blue);
     border-radius: 5px;
     position: relative;
-    height: 45rem;
+    height: 76rem;
     margin-bottom: 3rem;
 
 }
@@ -62,7 +62,7 @@ header {
     display: flex;
     flex-direction: column;
     border-radius: 8px;
-
+    margin-bottom: 15rem;
 }
 
 .main__copy h2 {
@@ -84,6 +84,7 @@ header {
 
 .main__pricing--cost {
     font-size: 5rem;
+    font-weight: 700;
 
 }
 .main__pricing--month {
@@ -106,4 +107,27 @@ header {
     color: var(--white);
     background-color: #000;
     margin-bottom: 1rem;
+}
+
+footer {
+    margin: 2.5rem 2.5rem 10rem 2.5rem;
+}
+
+.footer__logo {
+    margin-bottom: 2rem;
+}
+
+.footer__copy {
+    margin-bottom: 3rem;
+    line-height: 1.75rem;
+}
+
+.footer__copy--email {
+    font-weight: 700;
+}
+
+.footer__social--links {
+    display: flex;
+    gap: 1.5rem;
+
 }
