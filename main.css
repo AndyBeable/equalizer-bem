@@ -43,7 +43,9 @@ header {
     background-color: var(--dark-blue);
     border-radius: 5px;
     position: relative;
-    height: 40rem;
+    height: 45rem;
+    margin-bottom: 3rem;
+
 }
 .main__image img {
     position: absolute;
@@ -51,4 +53,39 @@ header {
     left: 50%;
     top: 10rem;
     transform: translate(-50%, -50%)
+}
+.main__copy {
+    color: var(--white);
+    background-color: var(--orange);
+    padding: 2rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+
+}
+
+.main__copy h2 {
+   font-size: 32px;
+    margin-bottom: 1rem;
+    letter-spacing: 1.5px;
+}
+
+.main__copy p {
+    letter-spacing: 1.5px;
+    margin-bottom: 1rem;
+}
+
+.main__pricing {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem
+}
+
+.main__pricing--cost {
+    font-size: 5rem;
+    font-weight: 700;
+}
+.main__pricing--month {
+    font-size: 1.5rem;
+    font-size: 1.5rem;
 }
