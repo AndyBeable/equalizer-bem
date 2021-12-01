@@ -32,6 +32,10 @@ header {
     line-height: 2rem;
 }
 
+.header__pattern {
+    display: none;
+}
+
 .header__copy h1 {
     font-size: 40px;
     line-height: 48px;
