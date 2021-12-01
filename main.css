@@ -12,7 +12,7 @@ body {
 
 @media screen and (min-width: 730px) {
     body {
-        max-width: 768px;
+        max-width: 735px;
     }
 }
 
@@ -38,6 +38,12 @@ header {
     margin-bottom: 10rem
 }
 
+@media only screen and (min-width: 730px) {
+    .intro {
+        margin-right: 10rem;
+    }
+}
+
 .intro__copy {
     width: 95%;
     margin-bottom: 2rem;
@@ -52,6 +58,9 @@ header {
     .intro__pattern {
         display: block;
         position: absolute;
+        top: 0;
+        right: 0;
+        height: 300px;
     }
 }
 
@@ -60,6 +69,14 @@ header {
     line-height: 48px;
     margin-bottom: 2rem;
 }
+
+@media only screen and (min-width: 730px) {
+    .intro__copy h1 {
+       font-size: 60px;
+        line-height: 60px;
+    }
+}
+
 
 .main__container{
     display: flex;
