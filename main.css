@@ -9,6 +9,13 @@ body {
     max-width: 375px;
     margin: 0 auto;
 }
+
+@media screen and (min-width: 730px) {
+    body {
+        max-width: 768px;
+    }
+}
+
 :root {
     --blue: #66E2DC;
     --orange: #FA7453;
@@ -20,23 +27,35 @@ body {
 header {
     background-image: url("./assets/bg-main-mobile.png");
     background-size: cover;
-    margin: 2.5rem 2.5rem 10rem 2.5rem;
+    margin: 2rem 0rem
 }
 
 .header__logo {
     margin-bottom: 3rem;
 }
-.header__copy {
+
+.intro {
+    margin-bottom: 10rem
+}
+
+.intro__copy {
     width: 95%;
     margin-bottom: 2rem;
     line-height: 2rem;
 }
 
-.header__pattern {
+.intro__pattern {
     display: none;
 }
 
-.header__copy h1 {
+@media only screen and (min-width: 730px) {
+    .intro__pattern {
+        display: block;
+        position: absolute;
+    }
+}
+
+.intro__copy h1 {
     font-size: 40px;
     line-height: 48px;
     margin-bottom: 2rem;
