@@ -6,12 +6,15 @@
 
 body {
     font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container {
     max-width: 375px;
     margin: 0 auto;
 }
 
 @media screen and (min-width: 730px) {
-    body {
+    .container {
         max-width: 735px;
     }
 }
@@ -35,12 +38,16 @@ header {
 }
 
 .intro {
-    margin-bottom: 10rem
+    margin-bottom: 10rem;
+    background-image: url("assets/bg-main-mobile.png");
+    background-size: cover;
 }
 
 @media only screen and (min-width: 730px) {
     .intro {
         margin-right: 10rem;
+        background-image: url("assets/bg-main-desktop.png");
+        background-size: cover;
     }
 }
 
@@ -74,6 +81,12 @@ header {
     .intro__copy h1 {
        font-size: 60px;
         line-height: 60px;
+    }
+}
+
+@media only screen and (min-width: 730px) {
+    .intro__copy p {
+        font-size: 18px;
     }
 }
 
