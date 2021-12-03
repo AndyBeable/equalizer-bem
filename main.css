@@ -41,6 +41,7 @@ header {
     margin-bottom: 10rem;
     background-image: url("assets/bg-main-mobile.png");
     background-size: cover;
+    position: relative;
 }
 
 @media only screen and (min-width: 730px) {
@@ -65,9 +66,9 @@ header {
     .intro__pattern {
         display: block;
         position: absolute;
-        top: 0;
-        right: 0;
-        height: 300px;
+        top: -130px;
+        right: -160px;
+        height: 330px;
     }
 }
 
